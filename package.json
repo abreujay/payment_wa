@@ -1,0 +1,21 @@
+{
+  "name": "apoie_artista",
+  "version": "1.0.0",
+  "description": "Sistema de doação para testar métodos de pagamento em node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Abreu",
+  "license": "ISC",
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.72.5",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "gerencianet": "^1.0.3",
+    "mercadopago": "^2.0.15",
+    "qrcode": "^1.5.4"
+  }
+}
